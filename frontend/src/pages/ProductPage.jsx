@@ -9,7 +9,7 @@ function ProductPage() {
   const [selectedPlan, setSelectedPlan] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:4000/api/products/${slug}`)
+    axios.get(`https://assignment-1fi-ojot.onrender.com/api/products/${slug}`)
       .then(res => {
         setProduct(res.data);
         setSelectedVariant(res.data.variants[0]);
