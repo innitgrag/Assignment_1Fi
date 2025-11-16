@@ -25,3 +25,5 @@ Schema
 Product → variants
 Variant → emiPlans
 EMI Plan → tenure, monthly, interest
+
+Live Demo: https://1f1shop.netlify.app/
