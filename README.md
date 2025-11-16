@@ -1,4 +1,4 @@
-EMI Product App
+# EMI Product App
 Shows products, variants, and EMI plans using
 React + Tailwind + Node + Express + MongoDB.
 
